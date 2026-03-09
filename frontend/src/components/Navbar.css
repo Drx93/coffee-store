@@ -1,0 +1,102 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(26, 18, 8, 0.85);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--color-border);
+    padding: 0.9rem 0;
+}
+
+.navbar__inner {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    font-family: var(--font-serif);
+    color: var(--color-cream);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.navbar__logo strong {
+    color: var(--color-accent);
+}
+
+.navbar__logo-icon {
+    font-size: 1.4rem;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: auto;
+}
+
+.navbar__link {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color var(--transition-fast);
+}
+
+.navbar__link:hover {
+    color: var(--color-accent-light);
+}
+
+.navbar__cart-btn {
+    position: relative;
+    color: var(--color-text);
+    padding: 0.5rem;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.navbar__cart-btn:hover {
+    color: var(--color-accent);
+    background: var(--color-border);
+}
+
+.navbar__badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: #1a0f02;
+    font-size: 0.68rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+    animation: badgePop 0.3s ease;
+}
+
+@keyframes badgePop {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    70% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar__links {
+        display: none;
+    }
+}
