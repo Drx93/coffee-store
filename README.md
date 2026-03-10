@@ -99,14 +99,6 @@ site-ecommerce-cafe/
 
 ---
 
-## Développement
-
-Pour relancer le backend avec rechargement automatique :
-
-```bash
-cd backend
-npm run dev     # utilise nodemon
-```
 
 ---
 
@@ -114,4 +106,4 @@ npm run dev     # utilise nodemon
 
 - Le panier est géré **côté frontend** via React Context (non persisté entre rechargements).
 - La base de données est un simple fichier `products.json` (aucune vraie BDD requise).
-- Pour une mise en production, il faudrait ajouter une vraie base de données (MongoDB, PostgreSQL…).
+- Pour le futur, il faudra ajouter une vrai base de données ducoup
