@@ -1,4 +1,4 @@
-# ☕ CaféStore — Site E-Commerce React + Node.js
+# CaféStore — Site E-Commerce React + Node.js
 
 Un site e-commerce thème café avec catalogue produits, panier interactif, filtres par catégorie et transitions animées.
 
@@ -13,7 +13,7 @@ Un site e-commerce thème café avec catalogue produits, panier interactif, filt
 
 ## Installation & Lancement
 
-> ⚠️ **Deux terminaux séparés** sont nécessaires : un pour le backend, un pour le frontend.
+> **Deux terminaux séparés** sont nécessaires : un pour le backend, un pour le frontend.
 
 ---
 
@@ -90,12 +90,12 @@ site-ecommerce-cafe/
 
 | Fonctionnalité | Description |
 |---|---|
-| 🛒 **Panier global** | Ajout, suppression, modification des quantités |
-| 🗂 **Filtres catégories** | Cafés, Pâtisseries, Accessoires |
-| ✨ **Animations** | Hover cards, slide-in panier, skeleton loading, badge animé |
-| 📱 **Responsive** | Adapté mobile, tablette et desktop |
-| 🔍 **Détail produit** | Page dédiée avec sélecteur de quantité et indicateur de stock |
-| 🌙 **Thème sombre** | Design café avec palette brun / crème / or |
+| **Panier global** | Ajout, suppression, modification des quantités |
+| **Filtres catégories** | Cafés, Pâtisseries, Accessoires |
+| **Animations** | Hover cards, slide-in panier, skeleton loading, badge animé |
+| **Responsive** | Adapté mobile, tablette et desktop |
+| **Détail produit** | Page dédiée avec sélecteur de quantité et indicateur de stock |
+| **Thème sombre** | Design café avec palette brun / crème / or |
 
 ---
 
