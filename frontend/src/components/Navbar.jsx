@@ -16,6 +16,7 @@ export default function Navbar() {
                 <nav className="navbar__links">
                     <Link to="/" className="navbar__link">Accueil</Link>
                     <Link to="/products" className="navbar__link">Produits</Link>
+                    <Link to="/cart" className="navbar__link">Mon Panier</Link>
                 </nav>
 
                 <button className="navbar__cart-btn" onClick={toggleCart} aria-label="Ouvrir le panier">

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import CartSidebar from './components/CartSidebar';
@@ -12,7 +12,7 @@ function NotFound() {
         <main className="page-enter" style={{ textAlign: 'center', padding: '6rem 1rem' }}>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '4rem', color: 'var(--color-accent)' }}>404</h1>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem' }}>Page introuvable</p>
-            <a href="/" className="btn btn-primary">Retour à l'accueil</a>
+            <Link to="/" className="btn btn-primary">Retour à l'accueil</Link>
         </main>
     );
 }
