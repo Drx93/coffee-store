@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso Classique",
+        "description": "Un espresso intense aux arômes de cacao et de noisette torréfiée. Corsé et onctueux, il réveille les sens dès la première gorgée.",
+        "price": 3.50,
+        "category": "cafes",
+        "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=500&q=80",
+        "stock": 100,
+        "badge": "Bestseller"
+    },
+    {
+        "id": 2,
+        "name": "Cappuccino Velours",
+        "description": "Un équilibre parfait entre espresso, lait vapeur et mousseuse. Notes de caramel et douceur lactée pour une pause gourmande.",
+        "price": 4.80,
+        "category": "cafes",
+        "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&q=80",
+        "stock": 80,
+        "badge": ""
+    },
+    {
+        "id": 3,
+        "name": "Latte Caramel Beurre Salé",
+        "description": "Notre latte signature : espresso doux, lait chaud et sirop artisanal au caramel beurre salé. Un délice réconfortant.",
+        "price": 5.50,
+        "category": "cafes",
+        "image": "https://images.unsplash.com/photo-1561882468-9110d70c4ac7?w=500&q=80",
+        "stock": 60,
+        "badge": "Nouveau"
+    },
+    {
+        "id": 4,
+        "name": "Cold Brew Nitro",
+        "description": "Café infusé à froid pendant 18h, servi à la pression azotée. Texture crémeuse et veloutée, naturellement sucré sans sucre ajouté.",
+        "price": 6.00,
+        "category": "cafes",
+        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&q=80",
+        "stock": 40,
+        "badge": "Premium"
+    },
+    {
+        "id": 5,
+        "name": "Macchiato Noisette",
+        "description": "Espresso marqué d'une touche de lait mousseux et rehaussé d'un sirop artisanal à la noisette torréfiée.",
+        "price": 4.20,
+        "category": "cafes",
+        "image": "https://images.unsplash.com/photo-1485808191679-5f86510bd9d4?w=500&q=80",
+        "stock": 75,
+        "badge": ""
+    },
+    {
+        "id": 6,
+        "name": "Croissant au Beurre",
+        "description": "Croissant artisanal, feuilleté, croustillant à l'extérieur et fondant à l'intérieur. Préparé chaque matin avec du beurre de qualité.",
+        "price": 2.80,
+        "category": "patisseries",
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
+        "stock": 30,
+        "badge": "Fait maison"
+    },
+    {
+        "id": 7,
+        "name": "Cheesecake Vanille & Fruits Rouges",
+        "description": "Base biscuitée, crémeux à la vanille de Madagascar et coulis de fruits rouges. Un dessert généreux et équilibré.",
+        "price": 5.90,
+        "category": "patisseries",
+        "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500&q=80",
+        "stock": 20,
+        "badge": ""
+    },
+    {
+        "id": 8,
+        "name": "Brownie Chocolat Fondant",
+        "description": "Un brownie ultra moelleux au chocolat noir 70%, crispy en surface et fondant au cœur. Avec ou sans noix selon vos envies.",
+        "price": 3.50,
+        "category": "patisseries",
+        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&q=80",
+        "stock": 25,
+        "badge": "Coup de coeur"
+    },
+    {
+        "id": 9,
+        "name": "Mug en Céramique Artisanal",
+        "description": "Mug 350ml en céramique émaillée, fait à la main. Résistant au lave-vaisselle. Idéal pour savourer votre café du matin.",
+        "price": 18.00,
+        "category": "accessoires",
+        "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&q=80",
+        "stock": 15,
+        "badge": ""
+    },
+    {
+        "id": 10,
+        "name": "Cafetière à Piston French Press",
+        "description": "French Press 600ml en verre borosilicaté et acier inoxydable. Pour un café plein arôme, riche et sans filtre.",
+        "price": 35.00,
+        "category": "accessoires",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80",
+        "stock": 10,
+        "badge": "Populaire"
+    },
+    {
+        "id": 11,
+        "name": "Pack Dégustation Café — 3 Origines",
+        "description": "Coffret découverte : 3 × 100g de café en grains sélectionnés (Éthiopie, Colombie, Brésil). Torréfaction artisanale, fraîcheur garantie.",
+        "price": 28.00,
+        "category": "accessoires",
+        "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=500&q=80",
+        "stock": 12,
+        "badge": "Coffret"
+    },
+    {
+        "id": 12,
+        "name": "Matcha Latte Cérémonie",
+        "description": "Poudre de matcha japonais de grade cérémonie, mélangé à un lait d'avoine doux. Antioxydant, zen et délicieux.",
+        "price": 5.80,
+        "category": "cafes",
+        "image": "https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=500&q=80",
+        "stock": 50,
+        "badge": "Tendance"
+    }
+]
